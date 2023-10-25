@@ -62,9 +62,13 @@ const App = () => {
 };
 
 const ComponentLoader = ({ path }) => {
-  const Component = require(`./${path}`).default;
+  const LazyLoadedComponent = React.lazy(() => import(`./${path}`));
 
-  return <Component />;
+  return (
+    <React.Suspense fallback={<p>Loading component...</p>}>
+      <LazyLoadedComponent />
+    </React.Suspense>
+  );
 };
 
 export default App;
