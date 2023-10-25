@@ -23,7 +23,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("/tabs.json").then((response) => {
+    axios.get("tabs.json").then((response) => {
       setTabs(response.data);
       setLoading(false);
     });
