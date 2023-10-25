@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Faibysh/Backendless.git/static/css/main.0dbf1d1e.css",
+    "main.js": "/Faibysh/Backendless.git/static/js/main.97dc458e.js",
+    "static/js/787.7066663c.chunk.js": "/Faibysh/Backendless.git/static/js/787.7066663c.chunk.js",
+    "static/media/index.cjs": "/Faibysh/Backendless.git/static/media/index.87283f34b94ab8669cb4.cjs",
+    "static/media/logo.svg": "/Faibysh/Backendless.git/static/media/logo.6ce24c58023cc2f8fd88.svg",
+    "index.html": "/Faibysh/Backendless.git/index.html",
+    "main.0dbf1d1e.css.map": "/Faibysh/Backendless.git/static/css/main.0dbf1d1e.css.map",
+    "main.97dc458e.js.map": "/Faibysh/Backendless.git/static/js/main.97dc458e.js.map",
+    "787.7066663c.chunk.js.map": "/Faibysh/Backendless.git/static/js/787.7066663c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dbf1d1e.css",
+    "static/js/main.97dc458e.js"
+  ]
+}
